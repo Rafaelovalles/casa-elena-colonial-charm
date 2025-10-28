@@ -4,7 +4,7 @@ import { MapPin, ExternalLink } from 'lucide-react';
 const LocationSection = () => {
   const { t } = useTranslation();
 
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.8467394658826!2d-98.43334!3d18.90778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfbf3b1e6c8e7f%3A0x5e8b4c7e9c7e5e1!2sAtlixco%2C%20Puebla!5e0!3m2!1sen!2smx!4v1234567890";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.2858676507826!2d-98.43555782529843!3d19.1144427826901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0c9f9f9f9f9%3A0x9f9f9f9f9f9f9f9f!2sCasa%20Elena!5e0!3m2!1ses!2smx!4v1234567890";
 
   return (
     <section className="section-padding bg-muted/30">
@@ -44,7 +44,7 @@ const LocationSection = () => {
                 Atlixco es conocido por su clima primaveral, mercados de flores y arquitectura colonial. Casa Elena te pone en el centro de todo.
               </p>
               <a
-                href="https://www.google.com/maps/search/Calle+2+Sur+Atlixco+Puebla"
+                href="https://maps.app.goo.gl/TYFz1vz8baXieo2H9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-terracota hover:text-terracota-dark font-medium transition-colors"
