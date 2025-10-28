@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "welcome": "Welcome to Casa Elena",
+    "subtitle": "Your colonial escape in Atlixco",
+    "description": "Your rest begins here.",
+    "cta": "Book on Airbnb"
+  },
+  "gallery": {
+    "title": "Discover Casa Elena",
+    "subtitle": "Every corner tells a story"
+  },
+  "about": {
+    "title": "About Casa Elena",
+    "content": "Casa Elena is more than just a place to stay: it's an authentic experience in the heart of Atlixco, one of the most beautiful Pueblos Mágicos in Puebla. This traditional house invites you to discover the warmth of Mexican hospitality, surrounded by colonial architecture, artisan textiles, and the peace that only a place with soul can offer.",
+    "mission": "Every detail has been carefully considered so you feel at home, in an environment where time stands still and tranquility is in the air."
+  },
+  "location": {
+    "title": "How to get here?",
+    "address": "Calle 2 Sur, Downtown Atlixco, Puebla",
+    "description": "Casa Elena is located in the heart of Atlixco's historic center, steps away from cobblestone streets, artisan markets, and the natural beauty of this Pueblo Mágico.",
+    "directions": "View on Google Maps"
+  },
+  "footer": {
+    "tagline": "Explore Atlixco from its heart.",
+    "rights": "Casa Elena. All rights reserved.",
+    "book": "Casa Elena is ready for you."
+  },
+  "booking": {
+    "button": "Book on Airbnb",
+    "mobile": "Book"
+  }
+}
