@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import heroBg from '@/assets/hero-bg.jpg';
+import logo from '@/assets/logo.png';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -21,9 +22,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 container-casa fade-in">
         <div className="max-w-4xl mx-auto">
-          {/* Logo Placeholder - circular floral style */}
-          <div className="mb-8 inline-flex items-center justify-center w-32 h-32 rounded-full bg-terracota/10 border-2 border-terracota/30 backdrop-blur-sm">
-            <span className="text-4xl font-serif text-terracota">CE</span>
+          {/* Casa Elena Logo */}
+          <div className="mb-8">
+            <img 
+              src={logo} 
+              alt="Casa Elena" 
+              className="w-32 h-32 md:w-40 md:h-40 mx-auto fade-in"
+            />
           </div>
 
           <h1 className="mb-6 text-foreground fade-in" style={{ animationDelay: '0.1s' }}>
@@ -40,7 +45,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in" style={{ animationDelay: '0.4s' }}>
             <a 
-              href="https://www.airbnb.com" 
+              href="https://www.airbnb.com/rooms/1305352057305304751?search_mode=regular_search&adults=1&category_tag=Tag%3A8678&check_in=2025-11-02&check_out=2025-11-07&children=0&infants=0&pets=0&photo_id=2043345861&source_impression_id=p3_1761694406_P3rIRd0Bs1mnS20U&previous_page_section_name=1000&federated_search_id=90fdc16a-859b-46ac-b262-d840fefbcce4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-hero hover-lift"
