@@ -18,7 +18,7 @@ const BookingButton = () => {
               href="https://www.airbnb.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-marfil text-terracota hover:bg-papel transition-all duration-250 px-8 py-4 rounded-lg text-lg font-medium shadow-[var(--shadow-glow)] hover-lift"
+              className="inline-flex items-center gap-2 bg-marfil text-terracota hover:bg-papel transition-all duration-300 px-8 py-4 rounded-lg text-lg font-medium shadow-[var(--shadow-glow)] hover-lift"
             >
               <Calendar className="w-5 h-5" />
               {t('booking.button')}
