@@ -20,7 +20,6 @@ const Gallery = () => {
 
   const images = [
     { src: room1, alt: 'Habitación con cama y TV / Bedroom with bed and TV' },
-    { src: bathroom, alt: 'Baño con mosaicos artesanales / Bathroom with artisan tiles' },
     { src: room2, alt: 'Habitación colonial con vigas de madera / Colonial bedroom with wooden beams' },
     { src: room3, alt: 'Habitación espaciosa con techo de teja / Spacious room with tile ceiling' },
     { src: room4, alt: 'Habitación amplia con pisos de mosaico / Large room with mosaic floors' },
