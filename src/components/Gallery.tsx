@@ -7,20 +7,26 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import room1 from '@/assets/room-1.jpg';
-import courtyard from '@/assets/courtyard.jpg';
-import dining from '@/assets/dining.jpg';
-import livingRoom from '@/assets/living-room.jpg';
+import room2 from '@/assets/room-2.jpg';
+import room3 from '@/assets/room-3.jpg';
+import room4 from '@/assets/room-4.jpg';
+import room5 from '@/assets/room-5.jpg';
+import reception from '@/assets/reception.jpg';
 import bathroom from '@/assets/bathroom.jpg';
+import bathroom2 from '@/assets/bathroom-2.jpg';
 
 const Gallery = () => {
   const { t } = useTranslation();
 
   const images = [
-    { src: room1, alt: 'Traditional bedroom' },
-    { src: courtyard, alt: 'Courtyard with fountain' },
-    { src: dining, alt: 'Dining room' },
-    { src: livingRoom, alt: 'Living room' },
-    { src: bathroom, alt: 'Bathroom with talavera' },
+    { src: room1, alt: 'Habitación con cama y TV / Bedroom with bed and TV' },
+    { src: bathroom, alt: 'Baño con mosaicos artesanales / Bathroom with artisan tiles' },
+    { src: room2, alt: 'Habitación colonial con vigas de madera / Colonial bedroom with wooden beams' },
+    { src: room3, alt: 'Habitación espaciosa con techo de teja / Spacious room with tile ceiling' },
+    { src: room4, alt: 'Habitación amplia con pisos de mosaico / Large room with mosaic floors' },
+    { src: room5, alt: 'Habitación con pared roja / Bedroom with red accent wall' },
+    { src: reception, alt: 'Recepción con pared de ladrillo / Reception with brick wall' },
+    { src: bathroom2, alt: 'Baño con acabados artesanales / Bathroom with artisan finishes' },
   ];
 
   return (
