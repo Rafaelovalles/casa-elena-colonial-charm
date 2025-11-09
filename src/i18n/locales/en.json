@@ -28,5 +28,19 @@
   "booking": {
     "button": "Book on Airbnb",
     "mobile": "Book"
+  },
+  "rooms": {
+    "title": "Choose your room",
+    "description": "Select the room that best suits your needs",
+    "roomNumber": "Room {{number}}",
+    "groundFloor": "Ground floor",
+    "upperFloor": "Upper floor",
+    "capacity": "{{count}} person",
+    "capacity_plural": "{{count}} people",
+    "doubleBed": "Double bed",
+    "singleBed": "Single bed",
+    "twoDoubleBeds": "2 double beds",
+    "twoKingBeds": "2 King Size beds",
+    "bookRoom": "Book"
   }
 }

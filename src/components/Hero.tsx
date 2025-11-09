@@ -1,17 +1,23 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import heroBg from '@/assets/hero-bg.jpg';
 import logo from '@/assets/logo.png';
+import RoomSelectionDialog from './RoomSelectionDialog';
 
 const Hero = () => {
   const { t } = useTranslation();
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const scrollToGallery = () => {
     document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+    <>
+      <RoomSelectionDialog open={isDialogOpen} onOpenChange={setIsDialogOpen} />
+      
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
@@ -44,14 +50,12 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in" style={{ animationDelay: '0.4s' }}>
-            <a 
-              href="https://www.airbnb.com/rooms/1305352057305304751?search_mode=regular_search&adults=1&category_tag=Tag%3A8678&check_in=2025-11-02&check_out=2025-11-07&children=0&infants=0&pets=0&photo_id=2043345861&source_impression_id=p3_1761694406_P3rIRd0Bs1mnS20U&previous_page_section_name=1000&federated_search_id=90fdc16a-859b-46ac-b262-d840fefbcce4" 
-              target="_blank" 
-              rel="noopener noreferrer"
+            <button
+              onClick={() => setIsDialogOpen(true)}
               className="btn-hero hover-lift"
             >
               {t('hero.cta')}
-            </a>
+            </button>
             
             <button 
               onClick={scrollToGallery}
@@ -69,7 +73,8 @@ const Hero = () => {
           <div className="w-1.5 h-3 bg-terracota rounded-full" />
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 };
 

@@ -28,5 +28,19 @@
   "booking": {
     "button": "Reservar en Airbnb",
     "mobile": "Reservar"
+  },
+  "rooms": {
+    "title": "Elige tu habitación",
+    "description": "Selecciona la habitación que mejor se adapte a tus necesidades",
+    "roomNumber": "Habitación {{number}}",
+    "groundFloor": "Planta baja",
+    "upperFloor": "Planta alta",
+    "capacity": "{{count}} persona",
+    "capacity_plural": "{{count}} personas",
+    "doubleBed": "Cama matrimonial",
+    "singleBed": "Cama individual",
+    "twoDoubleBeds": "2 camas matrimoniales",
+    "twoKingBeds": "2 camas King Size",
+    "bookRoom": "Reservar"
   }
 }
