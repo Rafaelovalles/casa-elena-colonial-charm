@@ -8,15 +8,4 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Ejemplo si luego agregas otras páginas -->
-  <!-- 
-  <url>
-    <loc>https://www.casaelena.com.mx/habitaciones.html</loc>
-    <lastmod>2025-11-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  -->
-
 </urlset>
